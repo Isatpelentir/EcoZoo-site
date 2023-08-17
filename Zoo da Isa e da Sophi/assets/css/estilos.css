@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Quicksand;
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.clearfix {
+    overflow: hidden;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#nav {
+    background:#AEDF98;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 5px 0px;
+    margin: 0 5px;
+}
+
+#nav ul#menu li {
+    float: left;
+    border-radius: 80px;
+}
+
+#nav ul.right li {
+    float: right;
+}
+
+#nav ul li a {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#nav ul#menu li.active {
+    background-color: #3DA034;
+}
+
+#nav ul#menu li:hover {
+    background-color:#3DA034;
+}
+.cream {
+    background-color:#e6ffca;
+}
+
+section {padding-bottom: 20px;}
+blockquote, p, hr {margin-bottom: 10px;}
+
+section h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+[class*="col-"] {
+    float: left; 
+    padding-right: 10px;
+}
+
+.col-1 { width: 8.33%; }
+.col-2 { width: 16.66%;}
+.col-3 { width: 25% }
+.col-4 { width: 33.33% }
+.col-5 { width: 41.66% }
+.col-6 { width: 50% }
+.col-7 { width: 58.33% }
+.col-8 { width: 66.66% }
+.col-9 { width: 75% }
+.col-10 { width: 83.33% }
+.col-11 { width: 91.66% }
+.col-12 { width: 100% }
+
+/*seção alimentos*/
+#atracoes img {
+    padding-top: 15px;
+    height: 200px;
+}
+
+#atracoes h6 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    background-color: #3da034;
+    border-radius: 0 0 8px 8px;
+    font-weight: normal;
+    padding: 5px;
+}
+
+#atracoes {
+    padding-top: 15px;
+}
+
+#projetos img {
+    padding-top: 15px;
+    height: 200px;
+}
+
+#projetos h6 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    background-color: #3da034;
+    border-radius: 0 0 8px 8px;
+    font-weight: normal;
+    padding: 5px;
+    height: 60px;
+}
+
+#projetos
+ {
+    padding-top: 15px;
+}
+
+/*ajustes nas imagens*/
+img {
+    padding-top: 15px;
+    width: 100%;
+}
+
+
+
+img.img_ajuste{
+    object-fit: cover;
+    border-radius: 8px 8px 0 0 ;
+}
+
+.greenyellow{
+    background-color: greenyellow;
+}
+
+#contatos{
+    background-color: #75bf66;
+    padding-top: 15px;
+}
+
+#contatos ul {
+    text-align: center;
+}
+
+#contatos ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+#contatos ul li a {
+    color: white;
+    text-decoration: none;
+    /* padding: 20px;
+    background-color: white;
+    border-radius: 8px; */
+}
+
+header {
+    padding: 20px 0;
+    background-color: #fafae5;
+}
+#fechamento {
+    background-color: #75bf66;
+    padding-top: 20px;
+}
+
+#fechamento p {
+    margin-right: 10px;
+}
+
+#fechamento p a {
+    color: black;
+    text-decoration: none;
+}
+
+div.a {
+    line-height: 40px;
+}
+  
+
+/* teste */
+
+
+.carrosel {
+    height: 500px;
+}
+
+.carrosel img {
+    height: 500px;
+    object-fit: cover;
+}
+
+
+img {
+    width: 100%;
+}
+
+/* Header */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10px;
+    box-shadow: 0 1px 8px #fafae5;
+}
+
+nav h1 {
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f8f8f8;
+    transition: all 0.3s ease 0s;
+    background-color: coral;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    color: coral;
+    background-color: #666;
+}
+
+header {
+    /* padding: 20px 0; */
+    background-color: #e6ffca;
+}
+
+#sobrenos p{
+  padding: 30px;
+}
